@@ -7,24 +7,24 @@ A Lead Researcher coordinates the swarm and the work is split into steps (Find s
 This tool is a grounded research swarm that analyzes the sourced findings against 8 needles:  
 
 
-Borrower - Checks for who is the legal operating company?
-Ownership - Checks for who owns or controls it?
-Facility - Checks for Loan amount against and the current obligations and $XXX facility requested
-Existing Debt - Checks for what debt is already in place?
-Liquidity - What cash / liquidity is in the files?
-Earnings - What profit / EBITDA is in the sources?
-Adverse Media - Checks for reputation - Allegation vs fine?
-Limits - What remains unknown?
+- Borrower - Checks for who is the legal operating company?
+- Ownership - Checks for who owns or controls it?
+- Facility - Checks for Loan amount against and the current obligations and $XXX facility requested
+- Existing Debt - Checks for what debt is already in place?
+- Liquidity - What cash / liquidity is in the files?
+- Earnings - What profit / EBITDA is in the sources?
+- Adverse Media - Checks for reputation - Allegation vs fine?
+- Limits - What remains unknown?
 
 Each of the 8 needles outputs one Card:  
 
 Each card:
-    Needle name (Ownership)
-    Claim — the finding the agent is putting on the file
-    Quote — the span taken from which PDF
-    Grounding — in file / not in file, and why
-    Judge — supported / overstated / unsupported
-    Needle decision — Pass or Fail for this question
+- Needle name (Ownership)
+- Claim — the finding the agent is putting on the file
+- Quote — the span taken from which PDF
+- Grounding — in file / not in file, and why
+- Judge — supported / overstated / unsupported
+- Needle decision — Pass or Fail for this question
 
 The system starts by a user attaching in the company or client name, documents / PDFs, and optional URLs. The system plans the research, runs parallel experts (swarm), loops on gaps, audits for hallucinations (code validators & model grader), and produces an initial memo for diligence assessment, allowing a human to either Approve or Reject. 
 
