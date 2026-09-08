@@ -1,0 +1,8 @@
+blockers:
+  citation_coverage_rate: 0.95
+  quote_verification_rate: 1.00
+  numeric_mismatch_count: 0
+  unsupported_claim_count: 0
+warnings:
+  duplicate_section_score: 0.25
+max_review_loops: 3

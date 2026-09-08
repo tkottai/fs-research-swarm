@@ -1,0 +1,16 @@
+batch_size: 5
+max_concurrency: 3
+max_review_loops: 3
+timeouts_sec:
+  extract: 30
+  analyze: 90
+  synthesize: 60
+  review: 60
+retries:
+  max_attempts: 3
+  base_delay_sec: 1
+  multiplier: 2
+  max_delay_sec: 8
+abort:
+  max_error_rate: 0.4
+  max_spend_usd: 5.00
