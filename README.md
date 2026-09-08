@@ -39,7 +39,7 @@ Intake
 
 Here are the hallucination & evaluation scoring mechanisms: 
 
-- Grounding score for how many quotes are in the files
+- Grounding score for how many quotes are in the files (Python logic / code grader) 
 - Quality metric score on every single one of the 8 output records and coverage score to check how many of the 8 needles are (Python logic / code grader)
 - String matching citation coverage rate: how much of the answers is backed by sources? Does the quote exist in source? Numbers/date match? (Python logic / code grader)
 - Overstatement judging between claims and quotes (Model grader)
