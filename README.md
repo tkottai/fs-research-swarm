@@ -48,3 +48,8 @@ Here are the hallucination & evaluation scoring mechanisms: 
 Memo: 
 
 The LLM will draft the memo from the evidence cards. In this workflow, any statement that is not backed by a real passage in the file will be considered a hallucination. The system forces every important sentence to bring proof. 
+
+Architectural Flow:
+
+<img width="1450" height="794" alt="image" src="https://github.com/user-attachments/assets/6f36beb7-d35e-4c0c-8f01-6bbdcf0d3eab" />
+
